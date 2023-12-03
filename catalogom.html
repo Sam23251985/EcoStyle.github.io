@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/49eded6165.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Eco Style</title>
+</head>
+<body>
+		
+    <header>
+		<nav class="navbar navbar-expand-lg navbar-light custom-green-bg" >
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+				<img src="img/Logo3.png" alt="Logo" height="60" class="d-inline-block align-top">
+			</a>
+			
+		  
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+				<a><span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link font-weight-bold" href="catalogo.html">Catálogo</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link font-weight-bold " href="nosotros.html" tabindex="-1" aria-disabled="true">Nosotros</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link font-weight-bold " href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+				  </li>
+			  </ul>
+			  <form class="form-inline my-2 my-lg-0 mx-auto">
+                <input class="form-control mr-sm-2" type="search" style="width: 600px;" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+			  <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold " href="inicios.html">Iniciar Sesión</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link font-weight-bold " href="registrarse.html">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="compra.html">
+                        <i class="fa fa-shopping-cart " style="font-size: 24px;"></i>
+                    </a>
+                </li>
+            </ul>
+			</div>
+		</nav>
+	</header>
+
+
+	<main>
+        
+		<div class="container mt-4 h-100">
+            <div class="row">
+                <!-- Fila 1 -->
+                <div class="col-md-4 h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam1.png" class="card-img-top" alt="Imagen 1" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam1.1.png'" onmouseout="this.src='img/ropam1.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Manya</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card">
+                        <img src="img/ropam2.png" class="card-img-top" alt="Imagen 2" style="width: 100%; height: 350px; object-fit: cover;"  onmouseover="this.src='img/ropam2.1.png'" onmouseout="this.src='img/ropam2.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Sara</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam3.png" class="card-img-top" alt="Imagen 3" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam3.1.png'" onmouseout="this.src='img/ropam3.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Levis</h5>
+                            <p class="card-text"> PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row mt-4  h-100" >
+                <!-- Fila 2 -->
+                <div class="col-md-4" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam4.png" class="card-img-top" alt="Imagen 4" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam4.1.png'" onmouseout="this.src='img/ropam4.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Wrangler</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam5.png" class="card-img-top" alt="Imagen 5" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam5.1.png'" onmouseout="this.src='img/ropam5.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Lee</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card">
+                        <img src="img/ropam6.png" class="card-img-top" alt="Imagen 6" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam6.1.png'" onmouseout="this.src='img/ropam6.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Diesel</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER.</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row mt-4">
+                <!-- Fila 3 -->
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam7.png" class="card-img-top" alt="Imagen 7" style="width: 100%; height: 350px; object-fit: cover;"  onmouseover="this.src='img/ropam7.1.png'" onmouseout="this.src='img/ropam7.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">PIONIER</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER.</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam8.png" class="card-img-top" alt="Imagen 8" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam8.1.png'" onmouseout="this.src='img/ropam8.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Nudie Jeans</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  h-100" style="height: 300px;">
+                    <div class="card ">
+                        <img src="img/ropam9.png" class="card-img-top" alt="Imagen 9" style="width: 100%; height: 350px; object-fit: cover;" onmouseover="this.src='img/ropam9.1.png'" onmouseout="this.src='img/ropam9.png'">
+                        <div class="card-body">
+                            <h5 class="card-title">Everlane</h5>
+                            <p class="card-text">PANTALON CLASICO DENIM STRETCH PARA MUJER .</p>
+                            <P class="card-text" style="color: #e75353; font-weight: bold;">S/ 119.25</P>
+                            <div class="text-center">
+                                <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+
+
+
+    </main>
+
+    <script>
+        function agregarAlCarrito() {
+            alert("Producto agregado al carrito.");
+        }
+    </script>
+
+	<footer>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!-- Columna 1: Catálogo, Nosotros, Contacto -->
+					<div class="col-lg-4">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="catalogo.html">Catálogo</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="nosotros.html">Nosotros</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="contacto.html">Contacto</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Columna 2: Redes sociales -->
+					<div class="col-lg-4">
+						<ul class="navbar-nav  ">
+							<li class="nav-item ">
+								<a class="nav-link font-weight-bold text-dark" href="https:www.facebook.com">Facebook</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="https:www.instagram.com">Instagram</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="https:www.tiktok.com">TikTok</a>
+							</li>
+						</ul>
+					</div>
+		
+					<!-- Columna 3: Formulario, Información -->
+					<div class="col-lg-4">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link font-weight-bold text-dark" href="informacion.html">Información</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-12 text-right">
+						<img src="img/Logo3.png" alt="Logo" height="60" class="d-inline-block align-top">
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</footer>
+	
+	<script src="js/jquery-3.5.1.min.js"></script>
+ 	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

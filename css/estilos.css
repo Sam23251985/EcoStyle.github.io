@@ -1,0 +1,260 @@
+body {
+	background: #fffff1;
+	color: #000;
+	min-height: 100vh;
+	margin: 0;
+}
+
+header {
+	/* background: #0B6; */
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+footer {
+	padding: 20px;
+	background-color: rgba(199, 235, 170, 0.836); 
+	color:#000000;
+	
+}
+
+button {
+	background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+/*****************INICIO SESION***************/
+#login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+	margin:auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btn-iniciar-sesion {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+	margin-left: 25%;
+}
+
+#btn-iniciar-sesion:hover {
+    background-color: #114914;
+}
+
+#Sesion {
+	text-align: center;
+	font-weight: bold;
+}
+
+--------------------------------------------------------------------------------------------------------
+main {
+	flex: 1;
+	margin-bottom: 20px; /* Agregamos margen en la parte inferior para separar del footer */
+}
+
+.contenedor-imagen {
+	max-height: 180px;
+	overflow: hidden;
+}
+
+
+.widgets > div {
+	/*background: #219;	*/
+	padding: 5px;
+	margin-bottom:15px;  
+}
+
+.contenedor-imagen a {
+	background: #3da5e2;
+	display: inline-block;
+	
+}
+
+.contenedor-imagen:hover img {
+	
+	opacity: .3;
+}
+
+.contenedor-tit {
+    background: #000000;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.foto {
+
+	margin-top: 10px;
+	text-align: center;
+}
+.custom-green-bg {
+    background-color: rgba(199, 235, 170, 0.836); 
+}
+
+/**********REGISTRARSE ******************/ 
+
+.container-regi {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+	margin:auto;
+}
+
+.column {
+	width: 48%; /* Ajusta el ancho de cada columna según sea necesario */
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+
+#btn-registro {
+	background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+	margin:auto;
+}
+
+#btn-registro:hover {
+	background-color: #114914;
+}
+
+#Registro {
+	text-align: center;
+	font-weight: bold;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(80% - 100px); 
+    margin-right: 40px;
+}
+
+.content p {
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif; 
+}
+
+.proceso h3{
+
+	font-family:serif;
+}
+
+/*******************MAPA*******************/
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.titulo-mapa{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+/*Carrito de Compras*/
+
+.container-envio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:left;
+    width: 98%;
+	margin:auto;
+}
+
+.container-envio2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+    width: 98%;
+	margin:auto;
+}
+
+#Envio {
+	font-weight: bold;
+}
+
+#calle, #nom, #ape,
+#cel, #exterior, #cod, #distrito {
+	width: 75%;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+
+.column1, .column2 {
+	width: 40%; /* Ajusta el ancho de cada columna según sea necesario */
+	margin-bottom: 10px;
+}
+
+#btn-compra {
+	background-color: rgb(229, 173, 30);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+	margin:auto;
+}
+
+#btn-compra:hover {
+	background-color: rgb(186, 138, 19);
+}
+
+.column3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15%;
+	margin:auto;
+}
